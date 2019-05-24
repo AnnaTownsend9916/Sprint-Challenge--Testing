@@ -25,24 +25,33 @@ In this challenge use `Test Driven Development` to build a RESTful API using Nod
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 1. In Jest, what are the differences between `describe()` and `it()` globals, and what are good uses for them?
+
+You can declare/break up tests by calls to it(), nested inside a call to describe().
+
 1. What is the point of `Test Driven Development`? What do you think about this approach?
+
+Test Driven Development, relies on repetitve short term development cycles to ensure that features are added to an application very specific test help improve software reliability. This minimizes risk for bugs that can be tough debug because it is so imbeded in the code. I think this is a great design for simple applications and confidence.
+	
+
 1. Mention three types of automated tests.
+
+ Unit tests, integration tests, and snapshot tests.
 
 ## Project Set Up
 
-- [ ] Fork and clone this repository.
-- [ ] **CD into the folder** where you downloaded the repository.
-- [ ] Run `yarn` or `npm i` to download all dependencies.
-- [ ] Type `yarn test` or `npm test` to run the tests. The `test` script is already configured.
+- [ x] Fork and clone this repository.
+- [ x] **CD into the folder** where you downloaded the repository.
+- [ x] Run `yarn` or `npm i` to download all dependencies.
+- [ x] Type `yarn test` or `npm test` to run the tests. The `test` script is already configured.
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-- [ ] Use `jest` and `supertest` to write the tests.
-- [ ] Write the **tests BEFORE** writing the route handlers.
-- [ ] Your API must have both `POST` and `GET` endpoints for `/games`.
-- [ ] Write a **minimum** of three tests per endpoint.
+- [ x] Use `jest` and `supertest` to write the tests.
+- [ x] Write the **tests BEFORE** writing the route handlers.
+- [ x] Your API must have both `POST` and `GET` endpoints for `/games`.
+- [ x] Write a **minimum** of three tests per endpoint.
 
 Below is a product specification covering the requirements for your endpoints.
 
